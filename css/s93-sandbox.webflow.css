@@ -1,0 +1,31 @@
+.section {
+  background-image: url('../images/freepik__abstract-background-digital-black__70687.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10%;
+  display: flex;
+}
+
+.heading {
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.image {
+  width: 128px;
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding-top: 15%;
+  }
+}
